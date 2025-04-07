@@ -2,6 +2,7 @@ import React from "react";
 import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer";
 import Image from "next/image";
+import AnimatedBeamDemo from "@/components/sintesiscomp/animated-beam";
 
 function Projects() {
   return (
@@ -23,12 +24,91 @@ function Projects() {
             </p>
           </div>
           <Image
-            src="/Browser 1.png"
+            src="/macsoulbeat.png"
             width={500}
             height={500}
             alt="Browser image"
             className="translate-x-[300px] hover:translate-x-[250px] transition-all"
           />
+        </section>
+        <section className="md:flex hidden flex-col items-center gap-10">
+          <h2 className="acorn-bold text-6xl max-w-[600px] text-center">
+            Finished
+          </h2>
+          <div className="flex justify-between w-full">
+            <div
+              style={{
+                background: "linear-gradient(100deg, #FAAC12, #E07262)",
+              }}
+              className="w-[35%] relative h-[500px] rounded-[40px] overflow-hidden"
+            >
+              <h1 className=" py-5 z-10 px-10 right-0 absolute acorn-bold text-4xl">
+                Ecommerce clone
+
+              </h1>
+              <a href={"https://github.com/Enriquegonzalezz/Mercli"} target="_blank">
+                <div
+                  style={{
+                    width: "500px",
+                    height: "400px",
+                    position: "absolute",
+                    bottom: 0,
+                    right: 0,
+                  }}
+                >
+                  <Image
+                    className="object-contain h-auto absolute translate-x-[200px] bottom-0 rounded-[40px] hover:translate-x-[120px] transition-all"
+                    src="/merrcli.png"
+                    layout="fill"
+                    alt="story teller image"
+                  />
+                </div>
+              </a>
+            </div>
+            <div
+              style={{
+                background: "linear-gradient(100deg, #7EBAFF, #2400FF)",
+              }}
+              className="w-[60%] relative h-[500px] rounded-[40px] overflow-hidden"
+            >
+              <h1 className=" py-5 z-10 px-10 right-0 absolute acorn-bold text-4xl">
+                Music and social media world
+              </h1>
+              <a
+                href={"https://soulbeat-main-aycgth.laravel.cloud/"}
+                target="_blank"
+              >
+                <div
+                  style={{
+                    width: "500px",
+                    height: "400px",
+                    position: "absolute",
+                    bottom: 0,
+                    right: 0,
+                  }}
+                >
+                  <Image
+                    className="object-cover h-auto absolute translate-x-[50px] bottom-0 rounded-[40px] hover:translate-x-[20px] transition-all"
+                    src="/soul.png"
+                    layout="fill"
+                    alt="story teller image"
+                  />
+                </div>                
+              </a>
+            </div>
+          </div>
+        </section>
+        <section id= "habilidades"className="md:flex hidden flex-col items-center justify-center">
+        <h1 className="acorn-bold title text-6xl text-center mb-4">      
+            My Skills
+          </h1>
+          
+          
+            <div className="flex min-h-[350px] w-full items-center justify-center p-10">
+              <AnimatedBeamDemo />
+            </div>
+            <Footer />
+
         </section>
         <section className="flex md:hidden">
           <div className="flex flex-col gap-7">
@@ -46,73 +126,8 @@ function Projects() {
             </p>
           </div>
         </section>
-        <section className="md:flex hidden flex-col items-center gap-10">
-          <h2 className="acorn-bold text-6xl max-w-[600px] text-center">
-            Finished
-          </h2>
-          <div className="flex justify-between w-full">
-            <div
-              style={{
-                background: "linear-gradient(100deg, #FAAC12, #E07262)",
-              }}
-              className="w-[35%] relative h-[500px] rounded-[40px] overflow-hidden"
-            >
-              <h1 className=" py-5 z-10 px-10 right-0 absolute acorn-bold text-4xl">
-                Landing Page
-              </h1>
-              <a href={"https://puzzles-delta.vercel.app/"} target="_blank">
-                <div
-                  style={{
-                    width: "500px",
-                    height: "400px",
-                    position: "absolute",
-                    bottom: 0,
-                    right: 0,
-                  }}
-                >
-                  <Image
-                    className="object-cover h-auto absolute translate-x-[200px] bottom-0 rounded-[40px] hover:translate-x-[180px] transition-all"
-                    src="/puzzles.png"
-                    layout="fill"
-                    alt="story teller image"
-                  />
-                </div>
-              </a>
-            </div>
-            <div
-              style={{
-                background: "linear-gradient(100deg, #7EBAFF, #2400FF)",
-              }}
-              className="w-[60%] relative h-[500px] rounded-[40px] overflow-hidden"
-            >
-              <h1 className=" py-5 z-10 px-10 right-0 absolute acorn-bold text-4xl">
-                Story Teller
-              </h1>
-              <a
-                href={"https://story-teller-eight.vercel.app/"}
-                target="_blank"
-              >
-                <div
-                  style={{
-                    width: "500px",
-                    height: "400px",
-                    position: "absolute",
-                    bottom: 0,
-                    right: 0,
-                  }}
-                >
-                  <Image
-                    className="object-cover h-auto absolute translate-x-[50px] bottom-0 rounded-[40px] hover:translate-x-[20px] transition-all"
-                    src="/story-teller.png"
-                    layout="fill"
-                    alt="story teller image"
-                  />
-                </div>
-              </a>
-            </div>
-          </div>
-        </section>
         <section className="flex md:hidden flex-col items-center gap-10">
+
           <h2 className="acorn-bold text-6xl max-w-[600px] text-center">
             Finished
           </h2>
@@ -124,21 +139,21 @@ function Projects() {
               className="w-[100%] relative h-[500px] rounded-[40px] overflow-hidden"
             >
               <h1 className=" py-5 z-10 px-10 right-0 text-center acorn-bold text-4xl">
-                Landing Page
+                Ecommerce clone
               </h1>
-              <a href={"https://puzzles-delta.vercel.app/"} target="_blank">
+              <a href={"https://github.com/Enriquegonzalezz/Mercli"} target="_blank">
                 <div
                   style={{
-                    width: "500px",
-                    height: "400px",
+                    width: "60%",
+                    height: "80%",
                     position: "absolute",
                     bottom: 0,
-                    right: 0,
+                    right:0,
                   }}
                 >
                   <Image
-                    className="object-cover h-auto absolute translate-x-[230px] bottom-0 rounded-[40px] hover:translate-x-[180px] transition-all"
-                    src="/puzzles.png"
+                    className="object-cover h-full absolute  bottom-0 rounded-[40px]  transition-all"
+                    src="/merrcli.png"
                     layout="fill"
                     alt="story teller image"
                   />
@@ -152,10 +167,10 @@ function Projects() {
               className="w-[100%] relative h-[500px] rounded-[40px] overflow-hidden"
             >
               <h1 className=" py-5 z-10 px-10 right-0 text-center acorn-bold text-4xl">
-                Story Teller
+                Music and social media world
               </h1>
               <a
-                href={"https://story-teller-eight.vercel.app/"}
+                href={"https://soulbeat-main-aycgth.laravel.cloud/login"}
                 target="_blank"
               >
                 <div
@@ -168,59 +183,56 @@ function Projects() {
                   }}
                 >
                   <Image
-                    className="object-cover h-auto absolute translate-x-[230px] bottom-0 rounded-[40px] hover:translate-x-[20px] transition-all"
-                    src="/story-teller.png"
+                    className="object-cover h-auto absolute translate-x-[230px] bottom-0 rounded-[40px] transition-all"
+                    src="/soul.png"
                     layout="fill"
                     alt="story teller image"
                   />
                 </div>
+
+                
               </a>
             </div>
           </div>
         </section>
-        {/* <section className='md:flex hidden flex-col items-center gap-10'>
-          <h2 className='acorn-bold text-6xl max-w-[600px] text-center'>
-            In progress
-          </h2>
-          <div className='flex justify-between w-full'>
-            <Image
-              className='image-shadow rounded-[40px]'
-              src='/Frame 1.png'
-              width={700}
-              height={700}
-              alt='Foto de un café'
-            />
-            <Image
-              className='image-shadow rounded-[40px]'
-              src='/Frame 2.png'
-              width={350}
-              height={300}
-              alt='Foto de un café'
-            />
-          </div>
+        <section id= "habilidades"className="md:hidden flex flex-col items-center justify-center">
+        <h1 className="acorn-bold title text-6xl text-center mb-4">      
+            My Skills
+          </h1>
+          
+          
+          <div className="grid grid-cols-3 gap-6 w-full my-4 mb-10">
+  {/* Fila 1 */}
+  <div className="flex justify-center col-span-1 col-start-1 border-2 border-purple-700 rounded-lg bg-slate-700">
+    <Image src="./Figma.png" alt="Figma" className="w-32 scale-125 rounded-full aspect-square h-auto" />
+  </div>
+  <div className="flex justify-center col-span-1 col-start-2 border-2 border-purple-700 rounded-lg bg-slate-700">
+    <Image src="./Pythonlogo.png" alt="Python" className="w-28 rounded-full aspect-square h-auto scale-75 object-cover" />
+  </div>
+
+  {/* Fila 2 */}
+  <div className="flex justify-center col-span-1 col-start-3 border-2 border-purple-700 rounded-lg bg-slate-700">
+    <Image src="./Ts.png" alt="TypeScript" className="w-28 rounded-3xl aspect-square scale-90 h-auto" />
+  </div>
+  <div className="flex justify-center col-span-1 col-start-1 border-2 border-purple-700 rounded-lg bg-slate-700">
+    <Image src="./fotoreact.png" alt="React" className="w-28 rounded-full aspect-square h-auto scale-125" />
+  </div>
+
+  {/* Fila 3 - Centrada */}
+  <div className="flex justify-center col-span-1 col-start-2 border-2 border-purple-700 rounded-lg bg-slate-700">
+    <Image src="./fotonext.png" alt="Next.js" className="scale-90 rounded-full aspect-square h-auto" />
+  </div>
+  <div className="flex justify-center col-span-1 col-start-3 border-2 border-purple-700 rounded-lg bg-slate-700 ">
+    <Image src="./download.png" alt="CSS" className=" object-cover h-auto 
+    " />
+  </div>
+</div>
+            <Footer />
+
         </section>
-        <section className='flex md:hidden flex-col items-center gap-10'>
-          <h2 className='acorn-bold text-6xl max-w-[600px] text-center'>
-            In progress
-          </h2>
-          <div className='flex flex-col gap-10 justify-between w-full'>
-            <Image
-              className='image-shadow rounded-[40px]'
-              src='/Frame 1.png'
-              width={700}
-              height={700}
-              alt='Foto de un café'
-            />
-            <Image
-              className='image-shadow rounded-[40px]'
-              src='/Frame 2.png'
-              width={350}
-              height={300}
-              alt='Foto de un café'
-            />
-          </div>
-        </section> */}
-        <Footer />
+
+          
+        
       </main>
     </>
   );

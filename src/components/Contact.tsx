@@ -18,13 +18,13 @@ function Contact() {
         <div className="flex gap-10 bg-black p-3 w-full rounded-t-3xl">
           <Image
             className="rounded-[100px]"
-            src="/image-profile-2.jpeg"
+            src="/edeta.jpg"
             height={60}
             width={60}
             alt="Profile image"
           />
           <div>
-            <h1 className="acorn-bold text-2xl">Jose Ramón Montes</h1>
+            <h1 className="acorn-bold text-2xl">Enrique Alfonzo Gonzalez</h1>
             <h2 className="acorn-bold text-xl">Ask me a question.</h2>
           </div>
         </div>
@@ -65,15 +65,15 @@ function Contact() {
         className="flex md:hidden flex-col items-center bg-[#333333] rounded-3xl border-4"
       >
         <div className="flex gap-10 bg-black p-3 w-full rounded-t-3xl">
-          <Image
-            className="rounded-[100px]"
-            src="/image-profile-2.jpeg"
+        <Image
+            className="rounded-full object-cover"
+            src="/edeta.jpg"
             height={60}
             width={60}
             alt="Profile image"
           />
           <div>
-            <h1 className="acorn-bold text-2xl">Jose Ramón Montes</h1>
+            <h1 className="acorn-bold text-2xl">Enrique Alfonzo Gonzalez</h1>
             <h2 className="acorn-bold text-xl">Ask me a question.</h2>
           </div>
         </div>

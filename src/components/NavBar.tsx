@@ -21,11 +21,7 @@ function NavBar() {
       link: true,
       path: "/about",
     },
-    {
-      label: "Content",
-      link: false,
-      path: "/content",
-    },
+    
     {
       label: "Projects",
       link: false,
