@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(to bottom right, #7592f0, #e8b4fe, #88a0ff);;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@font-face {
+  font-family: 'Acorn-Bold';
+  src: url('/fonts/Acorn-Bold.ttf');
+}
+
+h1, h2, h3, p, li {
+  font-family: Acorn-Bold;
+}
+
+@font-face {
+  font-family: 'Montserrat-Medium';
+  src: url('/fonts/Montserrat-Medium.ttf');
+}
+
+.montserrat {
+  font-family: Montserrat-Medium;
+}
+
+.title {
+  background: linear-gradient(90deg, #ad00ff -2.4%, #ffb800 102.07%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.image-shadow {
+  box-shadow: 0px 0px 20px 0px rgba(255, 255, 255, 0.1);
+}
+
+@layer utilities {
+  .scrollbar-thin {
+    scrollbar-width: thin;
+    scrollbar-color: #d8b4fe #e0e7ff;
+  }
+
+  /* Para navegadores WebKit (Chrome, Safari) */
+  .scrollbar-thin::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-track {
+    background: #e0e7ff;
+    border-radius: 100vh;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-thumb {
+    background: #d8b4fe;
+    border-radius: 100vh;
+    border: 1px solid #c7d2fe;
+  }
+
+  .scrollbar-thin::-webkit-scrollbar-thumb:hover {
+    background: #c7d2fe;
+  }
+}
