@@ -207,7 +207,7 @@ function Projects() {
     <img src="./Figma.png" alt="Figma" className="w-32 scale-125 rounded-full aspect-square h-auto" />
   </div>
   <div className="flex justify-center col-span-1 col-start-2 border-2 border-purple-700 rounded-lg bg-slate-700">
-    <img src="./Pythonlogo.png" alt="Python" className="w-28 rounded-full aspect-square h-auto scale-75 object-cover" />
+    <img src="./pythonlogo.png" alt="Python" className="w-28 rounded-full aspect-square h-auto scale-75 object-cover" />
   </div>
 
   {/* Fila 2 */}
