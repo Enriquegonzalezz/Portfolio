@@ -43,7 +43,7 @@ export default function AnimatedBeamDemo() {
       <img src="./Figma.png" alt="" className="w-32 scale-125 rounded-full aspect-square h-auto " />
       </Circle>
       <Circle ref={div5Ref}>
-      <img src="./Pythonlogo.png" alt="" className="w-28 rounded-full aspect-square h-auto scale-90" />
+      <img src="./pythonlogo.png" alt="" className="w-28 rounded-full aspect-square h-auto scale-90" />
       </Circle>
     </div>
     
