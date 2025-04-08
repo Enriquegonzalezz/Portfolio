@@ -38,7 +38,7 @@ function About() {
           <div className="col-span-2 row-span-2 col-start-3 row-start-1 bg-gray-200 p-6 rounded-lg flex flex-col justify-center hover:bg-gray-50 transition duration-300 hover:scale-105">
             <div className="flex flex-col gap-4">
               <h1 className="acorn-bold title text-5xl">Hi! I am Enrique Gonzalez</h1>
-              <h1 className="acorn-bold text-3xl text-neutral-800">Computer Engineering (WP)</h1>
+              <h1 className="acorn-bold text-3xl  text-neutral-800">Computer Engineering (WP)</h1>
             </div>
           </div>
 
