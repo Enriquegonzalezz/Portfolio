@@ -252,7 +252,7 @@ function Projects() {
     <img src="./fotonext.png" alt="Next.js" className="scale-90 rounded-full aspect-square h-auto" />
   </div>
   <div className="flex justify-center col-span-1 col-start-2 border-2 border-purple-700 rounded-lg bg-slate-700">
-    <img src="./graphql.png" alt="GraphQL" className="w-28 scale-90 aspect-square h-auto object-contain" />
+    <img src="./Graphql.png" alt="GraphQL" className="w-28 scale-90 aspect-square h-auto object-contain" />
   </div>
   <div className="flex justify-center col-span-1 col-start-3 border-2 border-purple-700 rounded-lg bg-slate-700">
     <img src="./dockerlogo.png" alt="Docker" className="w-28 scale-[.80] aspect-square h-auto object-contain" />
