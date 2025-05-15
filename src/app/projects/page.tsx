@@ -107,6 +107,29 @@ function Projects() {
             <div className="flex min-h-[350px] w-full items-center justify-center p-10">
               <AnimatedBeamDemo />
             </div>
+
+            <h1 className="acorn-bold title text-6xl text-center mb-4">
+              Other Skills
+            </h1>
+            <div className="grid grid-cols-3 gap-6 w-[80%] my-4 mb-10">
+            {/* Fila 1 */}
+            <div className="flex justify-center col-span-1 col-start-1 border-2 border-purple-700 rounded-lg bg-slate-700">
+              <img src="./angularlogo.png" alt="Angular" className="w-28  rounded-full aspect-square h-auto pd-" />
+            </div>
+            <div className="flex justify-center col-span-1 col-start-2 border-2 border-purple-700 rounded-lg bg-slate-700">
+              <img src="./Graphql.png" alt="grapql" className="w-28 rounded-full aspect-square h-auto scale-75 object-cover" />
+            </div>
+
+            {/* Fila 2 */}
+            <div className="flex justify-center col-span-1 col-start-3 border-2 border-purple-700 rounded-lg bg-slate-700">
+              <img src="./expresslogo.png" alt="TypeScript" className="w-28 rounded-3xl aspect-square scale-90 h-auto" />
+            </div>
+            <div className="flex justify-center col-span-1 col-start-1 border-2 border-purple-700 rounded-lg bg-slate-700">
+              <img src="./dockerlogo.png" alt="React" className="w-28 rounded-full aspect-square h-auto scale-75" />
+            </div>
+
+          </div>
+
             <Footer />
 
         </section>
@@ -209,23 +232,33 @@ function Projects() {
   <div className="flex justify-center col-span-1 col-start-2 border-2 border-purple-700 rounded-lg bg-slate-700">
     <img src="./pythonlogo.png" alt="Python" className="w-28 rounded-full aspect-square h-auto scale-75 object-cover" />
   </div>
+  <div className="flex justify-center col-span-1 col-start-3 border-2 border-purple-700 rounded-lg bg-slate-700">
+    <img src="./angularlogo.png" alt="Angular" className="w-28 rounded-full aspect-square h-auto object-cover" />
+  </div>
 
   {/* Fila 2 */}
-  <div className="flex justify-center col-span-1 col-start-3 border-2 border-purple-700 rounded-lg bg-slate-700">
+  <div className="flex justify-center col-span-1 col-start-1 border-2 border-purple-700 rounded-lg bg-slate-700">
     <img src="./Ts.png" alt="TypeScript" className="w-28 rounded-3xl aspect-square scale-90 h-auto" />
   </div>
-  <div className="flex justify-center col-span-1 col-start-1 border-2 border-purple-700 rounded-lg bg-slate-700">
-    <img src="./fotoreact.png" alt="React" className="w-28 rounded-full aspect-square h-auto scale-" />
+  <div className="flex justify-center col-span-1 col-start-2 border-2 border-purple-700 rounded-lg bg-slate-700">
+    <img src="./fotoreact.png" alt="React" className="w-28 scale-110 aspect-square h-auto" />
+  </div>
+  <div className="flex justify-center col-span-1 col-start-3 border-2 border-purple-700 rounded-lg bg-slate-700">
+    <img src="./expresslogo.png" alt="Express" className="w-28 scale-90 aspect-square h-auto object-contain" />
   </div>
 
-  {/* Fila 3 - Centrada */}
-  <div className="flex justify-center col-span-1 col-start-2 border-2 border-purple-700 rounded-lg bg-slate-700">
+  {/* Fila 3 */}
+  <div className="flex justify-center col-span-1 col-start-1 border-2 border-purple-700 rounded-lg bg-slate-700">
     <img src="./fotonext.png" alt="Next.js" className="scale-90 rounded-full aspect-square h-auto" />
   </div>
-  <div className="flex justify-center col-span-1 col-start-3 border-2 border-purple-700 rounded-lg bg-slate-700 ">
-    <img src="./download.png" alt="CSS" className=" object-cover h-auto 
-    " />
+  <div className="flex justify-center col-span-1 col-start-2 border-2 border-purple-700 rounded-lg bg-slate-700">
+    <img src="./graphql.png" alt="GraphQL" className="w-28 scale-90 aspect-square h-auto object-contain" />
   </div>
+  <div className="flex justify-center col-span-1 col-start-3 border-2 border-purple-700 rounded-lg bg-slate-700">
+    <img src="./dockerlogo.png" alt="Docker" className="w-28 scale-[.80] aspect-square h-auto object-contain" />
+  </div>
+
+
 </div>
             <Footer />
 

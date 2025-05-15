@@ -4,7 +4,7 @@ import Link from 'next/link';
 import Contact from './Contact';
 import { useValueStore } from '@/store/valueStore';
 
-const cvfile = '/Enrique Gonzalez CV.pdf';
+const cvfile = '/EnriqueGonzalezCV.pdf';
 
 function Footer() {
   const {contactState, setContactState} = useValueStore((state) => ({
@@ -27,7 +27,7 @@ function Footer() {
               GitHub
             </Link>
             <li className='cursor-pointer'>
-              <a href={cvfile} download="Enrique Gonzalez CV.pdf">CV</a>
+              <a href={cvfile} download="EnriqueGonzalezCV.pdf">CV</a>
             </li>
             <Link
               href='https://www.linkedin.com/in/Enriquegonzadev/'
@@ -69,7 +69,7 @@ function Footer() {
               GitHub
             </Link>
             <li className='cursor-pointer'>
-              <a href={cvfile} download="Enrique Gonzalez CV.pdf">CV</a>
+              <a href={cvfile} download="EnriqueGonzalezCV.pdf">CV</a>
             </li>
             <Link
               href='https://www.linkedin.com/in/Enriquegonzadev/'
